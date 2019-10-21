@@ -25,6 +25,7 @@ Improvement in power factor will increase the power factor of a load, improving 
  For the circuit consisting of wattmeter, voltameter and ammeter to 
              values of power consumed by the load, voltage across the load and
              current drawn by the load, the power factor can be calculated as:
+	     
                                           POWER FACTOR= COS Φ = P / V I      
                                      POWER FACTOR ANGLE OF LOAD:
                                           Φ= COS-1= P / V I
@@ -32,6 +33,8 @@ Improvement in power factor will increase the power factor of a load, improving 
                                           Reactive Power Q = V I Sin Φ VAR
                                           Apparent power S = √P2 + Q2
                                           Power Factor = P / S
+					  
+					  
                By adding capacitor in parallel with some of the reactive power is 
                supplied by the capacitor depending upon value of capacitance added
                in parallel with the load resulting in reduction in apparent power (S) 
@@ -76,9 +79,13 @@ Improvement in power factor will increase the power factor of a load, improving 
 Formulas:<br> 
 
  <br>
-                                          POWER FACTOR= COS Φ = P / V I      
+ 
+                                          POWER FACTOR= COS Φ = P / V I  
+					  
                                      POWER FACTOR ANGLE OF LOAD:
+				     
                                           Φ= COS-1= P / V I
+					  
                                      Active power P = V I Cos Φ watts
                                           Reactive Power Q = V I Sin Φ VAR
                                           Apparent power S = √P2 + Q2
