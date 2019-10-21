@@ -1,57 +1,50 @@
 ## Storyboard (Round 2)
 
-Experiment 1: DSB/SSB amplitude modulation
+Experiment 1: Calculation of power in AC circuit , and information about power factor and improvement of power 
 
 ### 1. Story Outline:
 
-The experiment is based on DSB-SC which is a double sideband suppressed carrier modulation and SSB-SC is single sideband suppressed carrier modulation.
-When amplitude modulation is carried out, the modulating signal spectrum is shifted to the carrier frequency band. DSB-SC is so named because the modulating signal extends symmetrically on both sides of the carrier wave. SSB-SC is DSB-SC with only one side band.
+This experiment is based on the consumption of power, evaluating power factor and its improvement.  Students will be able to understand the experiments after seeing it visually using the concepts that they have learnt previously
 
 The objective of the experiment is to study DSB/SSB amplitude modulation and determine its modulation factor.
 ### 2. Story:
 
-Double sideband suppressed carrier modulation
-At the beginning of the explanation of amplitude modulation, we explained the AM radio system, but the term for amplitude in the theoretical expression was complex. If the amplitude of the carrier wave is simply changed and mathematised, it is as follows. This modulation method is called DSB-SC (double sideband suppressed carrier modulation). As the name suggests, there’s no wave carrier in the modulated wave.
+Power factor and its improvement plays a very vital role in our day to day life. The power factor of an electrical power system is the ratio of real power absorbed by load and the apparent power flowing in the circuit . Real power is the product of voltage and current.
 
-<img src="storyboard/ssb.jpg"/>
+In  electric power system, a low power factor load draws more current than a  high power factor load of the same amount of useful power transferred. The high current increases the energy lost and require large wires and other equipments. As the cost of larger equipment and wasted energy, electrical appliances will usually charge a higher cost to costumer where a low power factor is used. Hence improvement of a power factor is needed.
+
+Improvement in power factor will increase the power factor of a load, improving efficiency for the system to which it is attached. Linear load of low power factor is corrected by passive network of capacitors and inductors. The devices for power factor correction may be at  central substation, spread out over the system, or built into power consuming system.
+
+
 <br>
 
 
-Single sideband suppressed carrier modulation (SSB-SC)
-The modulation method where only a single band of double sideband suppressed carrier modulation is transmitted is known simply as SSB. It offers even better electrical efficiency and frequency band efficiency than DSB. In addition, with digital modulation, modulation is performed at relatively low frequency, and this method is also used to up-convert the signal to a radio frequency. SSB-SC modulation can be achieved with various systems, but in terms of hardware, USB or LSB can be used as a filter. As with DSB-SC, the modulating signal spectrum is shifted directly to the carrier frequency band without loss.
- 
- 1.	Amplitude modulation: Modulation is a process of translating information signal from low band frequency to high band frequency that is suits the transmission medium. Information signal is usually of low frequency, so it cannot travel far. It needs a carrier signal of higher frequency for long distance destination. The inputs are carrier and information (modulating) signals while the output is called the modulated signal. Amplitude Modulation (AM) refers to the modulation technique where the carrier’s amplitude is varied in accordance to the instantaneous value of the modulating or baseband signal’s amplitude. An AM signal is represented as:
+             Power in a single-phase AC circuit with inductive load (by combining       
+           Inductance and resistance) is given by:
+                                         P = I2R    
+                         Where P= power consumed by load in watt.
+                                        R= resistance
+                                        I= load current in amps.
+                                         
+              For the circuit consisting of wattmeter, voltameter and ammeter to 
+             values of power consumed by the load, voltage across the load and
+             current drawn by the load, the power factor can be calculated as:
+                                          POWER FACTOR= COS Φ = P / V I      
+                                     POWER FACTOR ANGLE OF LOAD:
+                                          Φ= COS-1= P / V I
+                                     Active power P = V I Cos Φ watts
+                                          Reactive Power Q = V I Sin Φ VAR
+                                          Apparent power S = √P2 + Q2
+                                          Power Factor = P / S
+               By adding capacitor in parallel with some of the reactive power is 
+               supplied by the capacitor depending upon value of capacitance added
+               in parallel with the load resulting in reduction in apparent power (S) 
+               supplied by the source and hence power factor being 
+                                           cos Φ = P / S  increases
+               Resulting in improvement of power factor.
 
-Sinusoidal carrier wave C(t) given as:
-   c(t) = A cos wct	A = Max amplitude of the carrier wave
-   Wc = carrier frequency
-AM wave can be expressed as:
-   s(t) = x(t) cos wct + A cos wct s(t) = [A + x(t) ] cos wct
-
-2.	Modulation Index: The amount by which the amplitude of the carrier wave increases and decreases depends on the amplitude of the information signal and is known as modulation index or depth of modulation. The extent of amplitude variation in AM about a unmodulated carrier amplitude is measured in terms of a factor called modulation index.
-
-  m = Vmax-Vmin	X 100 % Vmax+ Vmin
-3.	Double side band transmitter: The transmitter circuit produces the AM signal which is used to carry information over transmission to the receiver.
-<br>
-<img src="storyboard/dsb-ssb.jpg"/>
 
 
-
-
-#### Apparatus
-1.	DSB/SSB	AMtransmitter kit
-2.	CRO
-3.	Patch cords 
-
-#### With following specifications,
-
-1.	DSB/SSB	AM transmitter kit	(ST2201)
-2  CRO as required by the DSB/SSb transmitter
-3.	Patch cords of desired length and required numbers
-
-### 4. User objective goals
-1. To study DSB/SSB amplitude modulation.
-2. To determine its modulation factor.
 
 
 ### 5. Challenges and Questions
